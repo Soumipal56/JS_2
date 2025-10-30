@@ -22,9 +22,6 @@
 #### Answer: 1, 5. The bitwise &, | are used to perform operations as the numbers are first converted into bits.
 
 # Variable Hoisting in JavaScript
-##### Predict output of console.log(b); 
-
-
-
+##### Predict output of console.log(b); let b = 10
 
       
