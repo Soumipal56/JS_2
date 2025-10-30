@@ -11,7 +11,7 @@
 ##### let count = 5; Use count++ and log value before and after. Repeat for count--.
 #### Answer: 5, 7, 7, 5
 ##### Compare two values: 5 == "5" and 5 === "5". Observe difference.
-#### Answer: 5 == "5" -> not strict. Do not check the type, only the value. 5 === "5" -> strict. Checks both the type and value.
+#### Answer: true, false. 5 == "5" -> not strict. Do not check the type, only the value. 5 === "5" -> strict. Checks both the type and value.
 ##### Check if 10 is greater than 5, less than 20, and equal to 10.
 #### Answer: true, true, true
 ##### Try logical AND and OR: true && false, true || false, !(true)
