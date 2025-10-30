@@ -22,6 +22,21 @@
 #### Answer: 1, 5. The bitwise &, | are used to perform operations as the numbers are first converted into bits.
 
 # Variable Hoisting in JavaScript
-##### Predict output of console.log(b); let b = 10
+##### Predict output of: console.log(a); var a = 10
+#### Answer: undefined
+##### Predict output of: console.log(b); let b = 10
+#### Answer: ReferenceError
+##### Predict output of: test() function test() { console.log("Hello") }
+#### Answer: Hello
+##### Try writing a function expression before initialization and call it:
+##### hello() var hello = function() { console.log("Hi) } Write what happened and why.
+#### Answer: TypeError. During hoisting, JS moves variable declarations to the top of the scope but not assignments.
+##### Write one sentence: What gets hoisted? What does not get hoisted fully?
+#### Answer: functions get hoisted var,let,const gets hoisted whereas var doesn't get initialized. 
 
+# Conditional Operators (if, else, else-if, ternary, switch)
+##### Take input using prompt for age. if age > 18 -> log "Adult". Else -> log "Minor"
+##### Write a program: if marks >= 90 -> "A grade" Else if marks >= 75 -> "B grade" Else if marks >= 50 -> "C grade" Else -> "Fail"
+##### Create a variable city = "Bhopal". "If city is “Bhopalˮ → log “MPˮ Else if city is “Delhiˮ → log “Capitalˮ Else → log “Unknown Cityˮ
+##### Use ternary operator: Let score = 40. If score > 35  “Passˮ else “Failˮ using a ternary.
       
