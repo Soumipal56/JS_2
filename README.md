@@ -39,4 +39,6 @@
 ##### Write a program: if marks >= 90 -> "A grade" Else if marks >= 75 -> "B grade" Else if marks >= 50 -> "C grade" Else -> "Fail"
 ##### Create a variable city = "Bhopal". "If city is “Bhopalˮ → log “MPˮ Else if city is “Delhiˮ → log “Capitalˮ Else → log “Unknown Cityˮ
 ##### Use ternary operator: Let score = 40. If score > 35  “Passˮ else “Failˮ using a ternary.
+##### Convert this if-else into a ternary: if (temperature > 30) { "Hot" } else { "Pleasant" }
+##### Write a switch case: Take day number (1 to 7). Print the day name. Default case: "Invalid Day".
       
