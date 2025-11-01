@@ -12,6 +12,14 @@ console.log(++count);
 console.log(count--);
 console.log(--count);
 
+let x = 10;
+if(x > 5 && x < 20 && x === 10){
+    console.log("x is 10");
+}
+else{
+    console.log("x is not 10");
+}
+
 // let age = prompt("Enter your age");
 // if (age > 18) {
 //     console.log("Adult");
@@ -30,46 +38,55 @@ console.log(--count);
 //     console.log("Fail");
 // }
 
-// let city = "Bhopal";
-// if (city === "Bhopal") {
-//     console.log("MP");
-// } else if (city === "Delhi") {
-//     console.log("Capital");
-// } else {
-//     console.log("Unknown City");
-// }
+let city = "Delhi";
+if (city === "Bhopal") {
+    console.log("MP");
+} else if (city === "Delhi") {
+    console.log("Capital");
+} else {
+    console.log("Unknown City");
+}
 
-// let score = 40;
-// let result = score > 35 ? "Pass" : "Fail";
-// console.log(result);
+let score = 40;
+let result = score > 35 ? "Pass" : "Fail";
+console.log(result);
 
-// let temperature = 33;
-// let weather = temperature > 30 ? "Hot" : "Plesant";
-// console.log(weather);
+let temperature = 33;
+let weather = temperature > 30 ? {"Hot"} : {"Pleasant"};
+console.log(weather);
 
-// switch (day) {
-//     case 1:
-//         console.log("Sunday");
-//         break;
-//     case 2:
-//         console.log("Monday");
-//         break;
-//     case 3:
-//         console.log("Tuesday");
-//         break;
-//     case 4:
-//         console.log("Wednesday");
-//         break;
-//     case 5:
-//         console.log("Thursday");
-//         break;
-//     case 6:
-//         console.log("Friday");
-//         break;
-//     case 7:
-//         console.log("Saturday");
-//         break;
-//     default:
-//         console.log("Invalid Day");
-// }
+switch (day) {
+    case 1:
+        console.log("Sunday");
+        break;
+    case 2:
+        console.log("Monday");
+        break;
+    case 3:
+        console.log("Tuesday");
+        break;
+    case 4:
+        console.log("Wednesday");
+        break;
+    case 5:
+        console.log("Thursday");
+        break;
+    case 6:
+        console.log("Friday");
+        break;
+    case 7:
+        console.log("Saturday");
+        break;
+    default:
+        console.log("Invalid Day");
+}
+
+let age = 18;
+let country = "India";
+if (age > 18 && country == "India") {
+    console.log("Eligible for Vote");
+}
+else {
+    console.log("Not Eligible");
+}
 
